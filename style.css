@@ -1,0 +1,54 @@
+.html { font-size: 18px;}
+.body { font-family: 'Public Sans'; font-size: 18px; color: hsl(233, 8%, 62%); font-weight: 400; }
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.main { margin-left: 50px;}
+.header { background-color: hsl(0, 0%, 100%); position: relative; display: flex; justify-content: space-between; align-items: center;}
+.header a { text-decoration: none; color: hsl(233, 26%, 24%); font-weight: 700;}
+.header nav { display: flex; align-items: flex-start; align-items: center;}
+.header nav ul { display: flex; list-style: none; gap: 30px; }
+.header nav ul li a { text-decoration: none; color: hsl(233, 8%, 62%); font-weight: 400; }
+.header button { align-items: flex-end; display: flex; background-color: hsl(136, 65%, 51%);}
+.footer { background-color: hsl(233, 26%, 24%); width: 100%; position: relative; margin: 0; padding: 0;}
+.right-column { position: relative; display: flex; justify-content: flex-end; align-items: center; overflow: hidden; max-width: 100%; }
+.right-column img:first-child { width: 100%; position: absolute; top: 0; margin-top: -20%; right: -10%; z-index: 1; }
+.right-column img:last-child { position: relative; z-index: 2; width: 80%; height: auto; margin-top: -10%; margin-right: -15%; }
+.left-column { flex: 1; max-width: 30%; display: flex; flex-direction: column; text-align: left; }
+.text { font-size: 3rem; font-weight: 400; color: hsl(233, 26%, 24%); margin-bottom: 20px; }
+.pstyle { font-size: 1rem; color: hsl(233, 8%, 62%); margin-bottom: 30px; line-height: 1.6; }
+.button { background-color: hsl(136, 65%, 51%); color: hsl(0, 0%, 100%); border: none; border-radius: 30px; font-weight: 400; cursor: pointer; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: all 0.3s ease; display: inline-block; padding: 0.5em 1em; }
+  
+.left-content button:hover { backdrop-filter: blur(2.60px); transform: scale(1.05); box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); opacity: 0.70; }
+  
+
+.whychooseus {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -10%;
+    background-color: hsl(220, 16%, 96%);
+}
+
+.whychooseuscontent {
+    width: 20%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.articlesection {
+    display: flex;
+    flex-wrap: wrap;
+}
+.articles img {
+    width: 60%;
+}
+
+.articles {
+    width: 20%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+
